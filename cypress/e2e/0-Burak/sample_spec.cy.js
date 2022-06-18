@@ -1,5 +1,5 @@
 describe('My first Test', function(){
-  it('Does not do much', function(){
+  it('Assert if the email input works properly', function(){
 
     cy.visit("https://example.cypress.io")
 
