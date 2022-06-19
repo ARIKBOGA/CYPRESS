@@ -20,7 +20,5 @@ describe('First test', ()=>{
         cy.get('#login-button').click()
         cy.url().should('contains',"https://www.saucedemo.com/inventory.html")
     })
-   
-
 
 })
