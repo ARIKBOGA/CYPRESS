@@ -2,3 +2,6 @@
 package.json
 package-lock.json
 /.idea/
+cypress/e2e/.DS_Store
+.DS_Store
+cypress/videos

@@ -1,9 +1,11 @@
-describe('My first Test', function () {
+const { it } = require("mocha")
+
+describe('My first Test Suite', function () {
     it('Assert if the email input works properly', function () {
 
         cy.visit("https://example.cypress.io")
 
-        cy.pause()
+        //cy.pause()
 
         cy.contains('type').click()
 
